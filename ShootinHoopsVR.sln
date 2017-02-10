@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootinHoopsVR.Plugins", "ShootinHoopsVR.Plugins.csproj", "{F45298DB-3207-E664-45A0-8E65428B0AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootinHoopsVR", "ShootinHoopsVR.csproj", "{66D00EEF-7D03-FD18-6044-84BC99D744EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootinHoopsVR.Editor", "ShootinHoopsVR.Editor.csproj", "{550271A7-94B2-9472-978D-ADECF630A7B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F45298DB-3207-E664-45A0-8E65428B0AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45298DB-3207-E664-45A0-8E65428B0AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45298DB-3207-E664-45A0-8E65428B0AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45298DB-3207-E664-45A0-8E65428B0AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D00EEF-7D03-FD18-6044-84BC99D744EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D00EEF-7D03-FD18-6044-84BC99D744EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D00EEF-7D03-FD18-6044-84BC99D744EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D00EEF-7D03-FD18-6044-84BC99D744EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550271A7-94B2-9472-978D-ADECF630A7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550271A7-94B2-9472-978D-ADECF630A7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550271A7-94B2-9472-978D-ADECF630A7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550271A7-94B2-9472-978D-ADECF630A7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
