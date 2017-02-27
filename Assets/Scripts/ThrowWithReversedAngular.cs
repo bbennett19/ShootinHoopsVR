@@ -76,7 +76,6 @@ public class ThrowWithReversedAngular : VRTK.GrabAttachMechanics.VRTK_FixedJoint
                 float totalTime = t1 + finalVelocity / -9.8f;
                 // Now calculate the horizontal velocity
                 float horizontalDist = (float)Math.Sqrt(Math.Pow(objectRigidbody.transform.position.z - targetPos.z, 2) + Math.Pow(objectRigidbody.transform.position.x - targetPos.x, 2));
-                
                 float horizontalVelocity = horizontalDist / totalTime;
                 float angle = (float)Math.Atan((double)((objectRigidbody.transform.position.z - targetPos.z) / (objectRigidbody.transform.position.x - targetPos.x)));
                 float zVelocity = (float)Math.Sin(angle) * horizontalVelocity;
