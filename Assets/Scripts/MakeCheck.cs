@@ -7,10 +7,10 @@ public class MakeCheck : MonoBehaviour {
     private bool makeCheck1 = false;
     private float timeout = 4.0f;
     private float timer = 0.0f;
-
+    private GameObject scoreBoard;
 	// Use this for initialization
 	void Start () {
-		
+        scoreBoard = GameObject.Find("Scoreboard");
 	}
 	
 	// Update is called once per frame
@@ -37,7 +37,7 @@ public class MakeCheck : MonoBehaviour {
         }
         else if(index == 2 && makeCheck1)
         {
-            Debug.Log("Make");
+            scoreBoard.SendMessage("IncrementScore");
         }
     }
 
