@@ -2,7 +2,9 @@
 This project was developed for CIS 507 Seminar on CIS Careers and Internships
 ## Project Overview
 Built with Unity 5.5
+
 This project is intended to work with the HTC Vive and uses the SteamVR plugin and the VRTK library
+
 Shootin' Hoops VR is a Virtual Reality basketball game. The end goal of the development of this game is to allow players to play multiple game modes; shoot around, 3 point shootout, and multiplayer PIG or HORSE.  
 ## Current State
 The following features are implemented:
